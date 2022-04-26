@@ -1,0 +1,16 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pagination button {
+    margin: 10px;
+    background-color: white;
+    /* border: 1px solid seagreen; */
+}
+
+.pagination .selected {
+    margin: 10px;
+    background-color: seagreen;
+    color: white;
+}
